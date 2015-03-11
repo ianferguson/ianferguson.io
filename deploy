@@ -1,0 +1,29 @@
+#!/bin/bash
+# taken from http://gohugo.io/tutorials/github-pages-blog/
+
+echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
+
+# update our local copy of public first
+cd public
+branch="master"
+git checkout "$branch"
+git pull origin "$branch"
+cd ..
+git submodule update
+
+
+# Build the project. 
+hugo -t purehugo
+cd public
+git add -A
+msg="rebuilding site `date`"
+if [ $# -eq 1 ]
+  then msg="$1"
+fi
+git commit -m "$msg"
+git push origin "$branch"
+
+# Come Back
+# update hugo repo's gitmodule reference
+cd ..
+git submodule update
