@@ -1,0 +1,16 @@
+baseurl = "http://ianferguson.io/"
+languageCode = "en-us"
+title = "Ian Ferguson"
+
+[params]
+  description = "Software Enginer, Human Being"
+
+[[params.social]]
+    title = "twitter"
+    url = "https://twitter.com/ianwords"
+[[params.social]]
+    title = "github"
+    url = "https://github.com/ianferguson"
+[[params.social]]
+    title = "linkedin"
+    url = "https://www.linkedin.com/in/ianjamesferguson"
