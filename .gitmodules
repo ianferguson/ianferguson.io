@@ -1,6 +1,3 @@
 [submodule "themes/purehugo"]
 	path = themes/purehugo
 	url = git@github.com:dplesca/purehugo.git
-[submodule "public"]
-	path = public
-	url = git@github.com:ianferguson/ianferguson.github.io.git
