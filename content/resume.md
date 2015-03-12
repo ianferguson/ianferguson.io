@@ -101,23 +101,19 @@ title = "Ian Ferguson - Resume"
 
 
 ## SKILLS
+* **Lanaguages**: Java (Expert), Go (Some), HTML/CSS (Some), JavaScript (Some), 
 * **Java Application Development**: Guice, MyBatis, GWT, DropWizard, Jersey, Jackson, Guava, BoneCP, C3P0, Spring, JodaTime, slf4j/logback, Jetty, Tomcat, Maven, other common libraries, 
-
-* **Platforms**: Linux (CentOS & Ubuntu), OS X, 
-
-* **Databases**: PostgreSQL, Vertica, MySQL, Oracle, 
-
-* **Development Tools**: git, Eclipse, vim, Jenkins/Hudson, Maven, tmux, Fish Shell, 
-
+* **Platforms**: Linux (CentOS & Ubuntu), Amazon Web Services, OS X, 
+* **Databases**: PostgreSQL, Redshift, Vertica, MySQL, Oracle, 
+* **Development Tools**: Jenkins, Travis CI, Wercker, git, Eclipse, vim, Jenkins/Hudson, Maven, tmux, Fish Shell, 
 
 ## EDUCATION
 Bachelor of Science, Computing Information & Technology.  
 Guilford College, Greensboro, NC
-
 ## CONTACT
 
 [info@ianferguson.io](mailto:info@ianferguson.io)  
-[ianferguson.io](https://www.ianferguson.io)   
 [LinkedIn](http://www.linkedin.com/in/fergusonij)  
 [GitHub](https://github.com/ianferguson)  
+[ianferguson.io](https://www.ianferguson.io)   
 
