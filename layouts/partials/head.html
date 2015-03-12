@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-<head>
+  <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <!-- Enable responsiveness on mobile devices-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
@@ -18,6 +18,16 @@
     <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
     <!-- Script -->
     <script src="{{ .Site.BaseUrl }}/js/jquery.min.js"></script>
-    <script src="{{ .Site.BaseUrl }}/js/main.min.js">
+    <script src="{{ .Site.BaseUrl }}/js/main.min.js"></script>
+
+    <!-- TODO push this down into the footer -->
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-60680663-1', 'auto');
+      ga('send', 'pageview');
     </script>
-</head>
+  </head>
