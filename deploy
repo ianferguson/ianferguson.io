@@ -1,5 +1,0 @@
-#!/bin/bash
-
-# assumes s3cmd is already setup and configured
-# may need to add a clear and reupload at some point o this, but sync should work for now
-s3cmd sync ./public/ s3://www.ianferguson.io/
