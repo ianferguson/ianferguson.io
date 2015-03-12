@@ -10,6 +10,9 @@ title = "Ian Ferguson"
   github = "ianferguson"
   twitter = "ianwords"
   linkedin = "ianjamesferguson"
+  email = "info@ianferguson.io"
+  keybase = "ianferguson"
+  # bitbucket = "ianferguson"
 
 [[params.social]]
     title = "twitter"

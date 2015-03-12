@@ -1,28 +1,59 @@
-<div class="sidebar pure-u-1 pure-u-md-1-4">
-    <div class="header">
-        <hgroup>
-            <h1 class="brand-title"><a href="{{ .Site.BaseUrl }}">{{ .Site.Title }}</a></h1>
-            <h2 class="brand-tagline">{{ with .Site.Params.Description }} {{.}} {{end}}</h2>
-        </hgroup>
+<span class="mobile btn-mobile-menu">
+        <i class="fa fa-bars btn-mobile-menu__icon"></i>
+        <i class="fa fa-times btn-mobile-close__icon hidden"> </i>
+    </span>
 
-        <nav class="nav">
-            <ul class="nav-list">
-                {{ with .Site.Params.github }}
-                <li class="nav-item">
-                    <a class="pure-button" href="https://github.com/{{ . }} " target="_blank"><i class="fa fa-github-alt"></i></a>
-                </li>
-                {{ end }}
-                {{ with .Site.Params.linkedin }}
-                <li class="nav-item">
-                    <a class="pure-button" href="https://www.linkedin.com/in/{{ . }}" target="_blank"><i class="fa fa-linkedin-square"></i></a>
-                </li>
-                {{ end }}
-                {{ with .Site.Params.twitter }}
-                <li class="nav-item">
-                    <a class="pure-button" href="https://twitter.com/{{ . }}" target="_blank"><i class="fa fa-twitter"></i></a>
-                </li>
-                {{ end }}
-            </ul>
-        </nav>
+<header class="{{ if .IsNode }} {{ if eq .Url "/post/" }} panel-cover panel-cover--collapsed {{ else }}panel-cover {{ end }}{{ else }}panel-cover panel-cover--collapsed{{ end }}" {{ if .Site.Params.cover }} style="background-image: url({{ .Site.Params.cover }})" {{ end }} id="scriptHeader">
+    <div class="panel-main">
+        <div class="panel-main__inner panel-inverted">
+            <div class="panel-main__content"> {{ if .Site.Params.logo }}
+                <a href="{{ .Site.BaseUrl }}" title="link to homepage for {{ .Site.Title }}"> <img src="{{ .Site.Params.logo }}" width="80" alt="{{ .Site.Title }} logo" class="panel-cover__logo logo" /> </a> {{ end }}
+                <h1 class="panel-cover__title panel-title">
+                    <a href="{{ .Site.BaseUrl }}"  class="no-underline" title="link to homepage for {{ .Site.Title }}">{{ .Site.Title }}</a>
+                </h1>
+                <hr class="panel-cover__divider" />
+                <p class="panel-cover__description"> {{ if .Site.Params.description }} {{ .Site.Params.description }} {{ else }} This site is built using <a href="http://gohugo.io">hugo</a> and the theme is built by <a href="http://fredrikloch.me">Fredrik</a> if you enjoy it, it is available at <a href="https://github.com/SenjinDarashiva/hugo-uno">github</a> {{end}} </p>
+                <hr class="panel-cover__divider panel-cover__divider--secondary" />
+                <div class="navigation-wrapper">
+                    <nav class="cover-navigation cover-navigation--primary">
+                        <ul class="navigation">
+                            <li class="navigation__item"><a href="/about" title="link to {{ .Site.Title }} blog" class="blog-button no-underline">About Me</a> </li>
+                            </br> {{ if .Site.Params.cv }}
+                            <li class="navigation__item"><a href="{{ .Site.Params.cv  }}" title="link to my CV " class="blog-button no-underline">Resume</a> </li>
+                            </br> {{ end }} </ul>
+                    </nav> {{ partial "social.html" . }} </div>
+            </div>
+        </div>
+        <div class="panel-cover--overlay"></div>
     </div>
-</div>
+</header>
+<noscript>
+    <style>
+        #scriptHeader {display:none;}
+    </style>
+
+    <header class="panel-cover panel-cover--collapsed" style="background-image: url({{ .Site.Params.cover }})">
+        <div class="panel-main">
+            <div class="panel-main__inner panel-inverted">
+                <div class="panel-main__content"> {{ if .Site.Params.logo }}
+                    <a href="{{ .Site.BaseUrl }}" title="link to homepage for {{ .Site.Title }}"> <img src="{{ .Site.Params.logo }}" width="80" alt="{{ .Site.Title }} logo" class="panel-cover__logo logo" /> </a> {{ end }}
+                    <h1 class="panel-cover__title panel-title">
+                        <a href="{{ .Site.BaseUrl }}"  title="link to homepage for {{ .Site.Title }}">{{ .Site.Title }}</a>
+                    </h1>
+                    <hr class="panel-cover__divider" />
+                    <p class="panel-cover__description"> {{ if .Site.Params.description }} {{ .Site.Params.description }} {{ else }} This site is built using <a href="http://gohugo.io">hugo</a> and the theme is built by <a href="http://fredrikloch.me">Fredrik</a> if you enjoy it, it is available at <a href="https://github.com/SenjinDarashiva/hugo-uno">github</a> {{end}} </p>
+                    <hr class="panel-cover__divider panel-cover__divider--secondary" />
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation cover-navigation--primary">
+                            <ul class="navigation">
+                                <li class="navigation__item"><a href="/#blog" title="link to {{ .Site.Title }} blog" class="blog-button">Blog</a> </li>
+                                </br> {{ if .Site.Params.cv }}
+                                <li class="navigation__item"><a href="{{ .Site.Params.cv  }}" title="link to my CV " class="blog-button">CV</a> </li>
+                                </br> {{ end }} </ul>
+                        </nav> {{ partial "social.html" . }} </div>
+                </div>
+            </div>
+            <div class="panel-cover--overlay"></div>
+        </div>
+    </header>
+</noscript>

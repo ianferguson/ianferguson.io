@@ -1,0 +1,47 @@
+<nav class="cover-navigation navigation--social">
+<ul class="navigation"> 
+  {{ if .Site.Params.bitbucket }}
+  <!-- Bitbucket -->
+  <li class="navigation__item">
+    <a href="https://bitbucket.org/{{ .Site.Params.bitbucket }}" target="_" title="{{ .Site.Params.bitbucket }} on bitbucket"> <i class='fa fa-bitbucket'></i> <span class="label">Bitbucket</span> </a>
+  </li> 
+  {{ end }} 
+  {{ if .Site.Params.github }}
+  <!-- github -->
+  <li class="navigation__item">
+    <a href="https://github.com/{{ .Site.Params.github }}" target="_" title="{{ .Site.Params.github }} on github"> <i class='fa fa-github'></i> <span class="label">Github</span> </a>
+  </li> 
+  {{ end }}
+  {{ if .Site.Params.flickr }}
+  <!-- Flickr -->
+  <li class="navigation__item">
+    <a href="http://www.flickr.com/photos/{{ .Site.Params.flickr }}/" target="_" title="{{ .Site.Params.flickr }} on flickr"> <i class='fa fa-fl'></i> <span class="label">Flickr</span> </a>
+  </li> 
+  {{ end }} 
+  {{ if .Site.Params.linkedin }}
+  <!-- Linkedin -->
+  <li class="navigation__item">
+    <a href="http://no.linkedin.com/in/{{ .Site.Params.linkedin }}/en" target="_" title="Linkedin"> <i class='fa fa-ll'></i> <span class="label">Linkedin</span> </a>
+  </li> 
+  {{ end }} 
+  {{ if .Site.Params.email }}
+  <!-- Email -->
+  <li class="navigation__item">
+    <a href="mailto:{{ .Site.Params.email }}" target="_" title="Email {{ .Site.Params.email }}"> <i class='fa fa-envelope-o'></i> <span class="label">Email</span> </a>
+  </li> 
+  {{ end }}
+  <br>
+  {{ if .Site.Params.twitter }}
+  <!-- Twitter -->
+  <li class="navigation__item">
+    <a href="http://twitter.com/{{ .Site.Params.twitter }}" target="_" title="@{{ .Site.Params.twitter }} on Twitter"> <i class='fa fa-tt'></i> <span class="label">Twitter</span> </a>
+  </li> 
+  {{ end }} 
+  {{ if .Site.Params.keybase }}
+  <!-- Keybase -->
+  <li class="navigation__item">
+    <a href="https://keybase.io/{{ .Site.Params.keybase}}" target="_" title="https://keybase.io/{{ .Site.Params.keybase }}"> <i class='fa fa-key'></i> <span class="label">Keybase</span> </a>
+  </li> 
+  {{ end }} 
+</ul>
+</nav>
