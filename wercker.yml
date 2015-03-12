@@ -3,7 +3,7 @@ build:
   steps:
     - arjen/hugo-build:
         version: 0.13
-        theme: purehugo
+        theme: hugo-uno
         flags: --buildDrafts=false
 deploy:
     steps:
