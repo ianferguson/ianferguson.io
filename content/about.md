@@ -28,9 +28,4 @@ title = "about me"
     * [Storm](http://storm-project.net/)
 * Richard Linklater's 1991 classic film, '[Slacker](http://www.imdb.com/title/tt0102943/)'
 
-### links
-* [github](https://github.com/ianferguson)
-* [linkedin](http://www.linkedin.com/in/ianjamesferguson)
-* [email](mailto:info@ianferguson.io)
-
 _feel free to contact me if you're interested in any of these things, or have questions, comments or even great cat gifs to share_
