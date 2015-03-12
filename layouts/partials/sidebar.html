@@ -18,9 +18,13 @@
                     <nav class="cover-navigation cover-navigation--primary">
                         <ul class="navigation">
                             <li class="navigation__item"><a href="/about" title="link to {{ .Site.Title }} blog" class="blog-button no-underline">About Me</a> </li>
-                            </br> {{ if .Site.Params.cv }}
-                            <li class="navigation__item"><a href="{{ .Site.Params.cv  }}" title="link to my CV " class="blog-button no-underline">Resume</a> </li>
-                            </br> {{ end }} </ul>
+                            </br> 
+                            {{ if .Site.Params.cv }}
+                            <li></li>
+                            <li class="navigation__item"><a href="{{ .Site.Params.cv  }}" title="link to my resume" class="blog-button no-underline">Resume</a> </li>
+                           </br> 
+                            {{ end }} 
+                        </ul>
                     </nav> {{ partial "social.html" . }} </div>
             </div>
         </div>

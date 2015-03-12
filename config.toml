@@ -13,6 +13,7 @@ title = "Ian Ferguson"
   linkedin = "ianjamesferguson"
   email = "info@ianferguson.io"
   keybase = "ianferguson"
+  cv = "/resume"
   # bitbucket = "ianferguson"
 
 [[params.social]]
