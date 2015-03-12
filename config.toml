@@ -7,6 +7,7 @@ title = "Ian Ferguson"
 [params]
   description = "Software Engineer, Human Being"
   Description = "Software Engineer, Human Being"
+  logo = "/images/portrait.jpg"
   github = "ianferguson"
   twitter = "ianwords"
   linkedin = "ianjamesferguson"
