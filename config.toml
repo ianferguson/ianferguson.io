@@ -5,8 +5,8 @@ title = "Ian Ferguson"
 # a lot of things are duplicated, due to themes having their own
 # keys for things, and me not being sure of a theme 100% yet
 [params]
-  description = "Software Enginer, Human Being"
-  Description = "Software Enginer, Human Being"
+  description = "Software Engineer, Human Being"
+  Description = "Software Engineer, Human Being"
   github = "ianferguson"
   twitter = "ianwords"
   linkedin = "ianjamesferguson"
