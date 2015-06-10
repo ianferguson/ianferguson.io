@@ -1,3 +1,10 @@
++++
+date = "2015-06-10T13:25:15-04:00"
+draft = false
+title = "bio"
+
++++
+
 Ian Ferguson has worked in the political and and technology sectors for over seven years, holding a variety of senior level roles in Democratic campaigns and private companies.  
 
 Most recently Ian worked as a Senior Software Engineer for OnDeck, a recently IPO'd financial technology company, where he built a new development team focused on automating data-driven decision-making.  
