@@ -8,7 +8,7 @@ title = "About Me"
 ### Bio
 Ian Ferguson has worked in the political and and technology sectors for over seven years, holding a variety of senior level roles in Democratic campaigns and private companies.  
 
-Currently he works as the Chief Technology Officer on Martin O'Malley's 2016 Presidential campaign, leading the creation and implementation of data, analytics and technical tools and programs within the campaign.
+He is currently the Chief Technology Officer on Martin O'Malley's 2016 Presidential campaign, leading the creation and implementation of data, analytics and technical tools and programs within the campaign.
 
 Most recently Ian worked as a Senior Software Engineer for OnDeck, a recently IPO'd financial technology company, where he built a new development team focused on automating data-driven decision-making.  
 
