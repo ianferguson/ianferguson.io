@@ -6,9 +6,13 @@ title = "Ian Ferguson - Resume"
 +++
 
 ## EXPERIENCE
+  **Chief Technology Officer**
+  O'Malley For President, Baltimore, MD
+  _May 2015 - Present_
+
   **Founder/Freelance Software Engineer**  
   Lab Marie, Washington, DC   
-  _Sepetember 2014 - Present_
+  _Sepetember 2014 - May 2015_
    
 * Worked with clients to deliver both new software development and operational support
 * Reviewed work submitted to projects by subcontractors
