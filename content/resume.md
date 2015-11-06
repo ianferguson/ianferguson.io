@@ -18,7 +18,7 @@ _May 2015 - Present_
 
 **Founder/Freelance Software Engineer**  
 Lab Marie, Washington, DC   
-_Sepetember 2014 - May 2015_
+_September 2014 - May 2015_
 
 * Worked with clients to deliver both new software development and operational support
 * Reviewed work submitted to projects by subcontractors
@@ -111,7 +111,7 @@ _September 2007 - May 2008_
 
 
 ## SKILLS ##
-* **Lanaguages**: Java (Expert), Go (Some), HTML/CSS (Some), JavaScript (Some), 
+* **Languages**: Java (Expert), Go (Some), HTML/CSS (Some), JavaScript (Some), 
 * **Java Application Development**: Guice, MyBatis, GWT, DropWizard, Jersey, Jackson, Guava, BoneCP, C3P0, Spring, JodaTime, slf4j/logback, Jetty, Tomcat, Maven, other common libraries, 
 * **Platforms**: Linux (CentOS & Ubuntu), Amazon Web Services, OS X, 
 * **Databases**: PostgreSQL, Redshift, Vertica, MySQL, Oracle, 
