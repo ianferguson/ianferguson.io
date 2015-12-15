@@ -1,30 +1,32 @@
 +++
-date = "2015-11-01"
+date = "2015-12-01"
 draft = false 
 title = "Ian Ferguson - Resume"
 
 +++
 
 ## EXPERIENCE ##
+**Freelance Software Engineer**  
+Self Employed, Washington, DC
+_November 2015 - Current_
+_September 2014 - May 2015_
+
+* Worked with clients to deliver both new software development and operational support.
+* Developed applications and accompanying technical infrastructure for bespoke web applications and APIs.
+* Reviewed work submitted to projects by subcontractors.
+* Maintained continuous integration server utilized by other contractors on projects.
+* Delivered products to meet client deadlines and requirements.
+* Provided time and cost estimates to interested prospective clients.
+
 **Chief Technology Officer**    
 O'Malley For President, Baltimore, MD  
-_May 2015 - Present_
+_May 2015 - October 2015_
 
 * Directed data, analytics and technology efforts across all departments of a Presidential campaign.
 * Analyzed performance of online advertisements and provided strategic advice based on said analysis.
-* Automated daily reporting generation and subsequent distribution to stakeholders.
+* Automated daily reporting generation and subsequent distribution to stakeholders using Vertica, Periscope Data and other tools as needed.
 * Integrated multiple platforms from different vendors to facilitate more holistic reporting and analysis.
 * Partnered with staff from multiple departments to gather requirements, prioritize and execute projects from start to completion.
-
-**Founder/Freelance Software Engineer**  
-Lab Marie, Washington, DC   
-_September 2014 - May 2015_
-
-* Worked with clients to deliver both new software development and operational support
-* Reviewed work submitted to projects by subcontractors
-* Maintained continuous integration server utilized by other contractors on projects
-* Delivered products to meet client deadlines and requirements
-* Provided time and cost estimates to interested prospective clients
 
 **Senior Software Engineer**  
 OnDeck, Arlington, VA   
@@ -38,7 +40,7 @@ _September 2013 - September 2014_
 * Created fully automated deployment scripts for multi-node application environment
 * Maintained greater than 98% unit test coverage on project
 
-**Software Engineer & Team Lead**  
+**Software Engineer & Team Technical Lead**  
 Catalist, Washington, DC   
 _December 2012 - August 2013_
 
