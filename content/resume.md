@@ -11,6 +11,11 @@ title = "Ian Ferguson - Resume"
 OPower, Arlington, VA
 _January 2016 - Current_
 
+* Implemented, tested and profiled system for asynchronously archiving client content to Amazon Web Services' S3 on demand.
+* Collaborated with other engineers across the organization to update and upgrade dependencies (Guava, Jackson, etc) in internal shared libraries.
+* Recommended technical processes for improving and increasing test coverage and code quality on a continuous basis.
+* Optimized and reduced memory usage of producers and consumers of an organization wide message queue.
+
 **Freelance Software Engineer**
 Self Employed, Washington, DC
 _November 2015 - December 2015_
