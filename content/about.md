@@ -13,7 +13,7 @@ title = "About Me"
         * [Guava](https://code.google.com/p/guava-libraries/) for general utilities and collections
         * [Guice](https://code.google.com/p/google-guice/) for wiring up dependencies
         * [Dropwizard](http://www.dropwizard.io/) for a quick & easily deployed/managed JAX-RS/API framework
-        * [Retrofit](http://square.github.io/retrofit/), [OkHttp](http://square.github.io/okhttp/), and friends from [Square](http://square.github.io/) for make interacting with http services in Java a breeze.
+        * [Retrofit](http://square.github.io/retrofit/), [OkHttp](http://square.github.io/okhttp/), and friends from [Square](http://square.github.io/) for making interactions with http services in Java a breeze.
         * [error-prone](errorprone.info/index.html) for getting an extra layer of compile time checking on my code,
         * [JUnit](http://junit.org/junit4/), [Truth](https://google.github.io/truth/), and [JaCoCo](http://www.eclemma.org/jacoco/) for writing, managing and evaluating tests
         * and other libraries that do not involve using [XML](http://blog.joda.org/2007/03/configuration-in-java-it-sure-beats-xml_4078.html)
