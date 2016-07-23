@@ -13,14 +13,15 @@ title = "About Me"
         * [Guava](https://code.google.com/p/guava-libraries/) for general utilities and collections
         * [Guice](https://code.google.com/p/google-guice/) for wiring up dependencies
         * [Dropwizard](http://www.dropwizard.io/) for a quick & easily deployed/managed JAX-RS/API framework
-        * [Retrofit](http://square.github.io/retrofit/), [OkHttp](http://square.github.io/okhttp/), and friends from [Square](http://square.github.io/) for making interactions with http services in Java a breeze.
+        * [Retrofit](http://square.github.io/retrofit/), [OkHttp](http://square.github.io/okhttp/), and friends from [Square](http://square.github.io/) for making interactions with http services in Java a breeze
+        * [JDBI](http://jdbi.org/) for talking to databases
         * [error-prone](errorprone.info/index.html) for getting an extra layer of compile time checking on my code,
         * [JUnit](http://junit.org/junit4/), [Truth](https://google.github.io/truth/), and [JaCoCo](http://www.eclemma.org/jacoco/) for writing, managing and evaluating tests
         * and other libraries that do not involve using [XML](http://blog.joda.org/2007/03/configuration-in-java-it-sure-beats-xml_4078.html)
     * [PostgreSQL](http://www.postgresql.org/), Amazon Redshift, HP Vertica & on occasion other data stores
     * [Amazon Web Services](http://aws.amazon.com/), [Digital Ocean](https://www.digitalocean.com) & Linux
-    * [wercker](http://wercker.com/), [Travis CI](https://travis-ci.org/profile/ianferguson) and [GitHub](https://github.com/ianferguson) for managing my source, builds and deployments
-    * [The Fish Shell](http://fishshell.com/), [vim](www.vim.org), [git](http://git-scm.com/), [Eclipse](http://www.eclipse.org/), and any random useful development tools I come across.
+    * [Jenkins](https://jenkins.io/), [wercker](https://app.wercker.com/#ianferguson), [Travis CI](https://travis-ci.org/profile/ianferguson) and [GitHub](https://github.com/ianferguson) for managing my source, builds and deployments
+    * [The Fish Shell](http://fishshell.com/), [vim](www.vim.org), [git](http://git-scm.com/), [Eclipse](http://www.eclipse.org/), and other useful development tools I come across.
     * [Go](http://golang.org/)
 * learning new things. some of these things:
     * Node.js
