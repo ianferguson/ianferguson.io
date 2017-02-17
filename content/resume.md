@@ -1,5 +1,5 @@
 +++
-date = "2015-12-01"
+date = "2016-08-01"
 draft = false
 title = "Ian Ferguson - Resume"
 
@@ -7,9 +7,11 @@ title = "Ian Ferguson - Resume"
 
 ## EXPERIENCE ##
 
-**Senior Software Engineer**
-OPower, Arlington, VA
-_January 2016 - Current_
+**Engineering Manager** _September 2016 - Current_
+
+**Senior Software Engineer** _January 2016 - September 2016_
+
+Opower, acquired by Oracle, Arlington, VA
 
 * Implemented, tested and profiled system for asynchronously archiving client content to Amazon Web Services' S3 on demand.
 * Collaborated on the design and implementation of an initial minimum viable product being developed within the company for sale to its clients.
@@ -19,8 +21,7 @@ _January 2016 - Current_
 
 **Freelance Software Engineer**
 Self Employed, Washington, DC
-_November 2015 - December 2015_
-_September 2014 - May 2015_
+_November 2015 - December 2015 & September 2014 - May 2015_
 
 * Worked with clients to deliver both new software development and operational support.
 * Developed applications and accompanying technical infrastructure for bespoke web applications and APIs.
