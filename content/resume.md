@@ -52,7 +52,7 @@ _September 2013 - September 2014_
 * Created fully automated deployment scripts for multi-node application environment
 * Maintained greater than 98% unit test coverage on project
 
-**Software Engineer & Team Technical Lead**
+**Software Engineer/Technical Lead**
 Catalist, Washington, DC
 _December 2012 - August 2013_
 
