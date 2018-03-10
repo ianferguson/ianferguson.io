@@ -135,6 +135,7 @@ _September 2007 - May 2008_
 ## SKILLS ##
 * **Languages**: Java (Expert), Go (Some), HTML/CSS (Some), JavaScript (Some),
 * **Java Application Development**: Guice, MyBatis, GWT, DropWizard, Jersey, Jackson, Guava, BoneCP, C3P0, Spring, JodaTime, slf4j/logback, Jetty, Tomcat, other common libraries,
+* **Tools**: Hashicorp Vault,
 * **Platforms**: Linux (CentOS & Ubuntu), Amazon Web Services, OS X,
 * **Databases**: PostgreSQL, Redshift, Vertica, MySQL, Oracle,
 * **Development Tools**: Jenkins, Travis CI, Wercker, git, Eclipse, vim, Maven, tmux, Fish Shell,
