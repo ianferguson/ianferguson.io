@@ -39,7 +39,7 @@ _November 2015 - December 2015 & September 2014 - May 2015_
 * Provided time and cost estimates to interested prospective clients.
 
 **Chief Technology Officer**\
-O'Malley For President, Baltimore, MD
+O'Malley For President, Baltimore, MD\
 _May 2015 - October 2015_
 
 * Directed data, analytics and technology efforts across all departments of a Presidential campaign.
