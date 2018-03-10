@@ -145,8 +145,8 @@ Bachelor of Science, Computing Information & Technology\
 Guilford College, Greensboro, NC
 
 ## CONTACT ##
-[info@ianferguson.io](mailto:info@ianferguson.io)
-[LinkedIn](http://www.linkedin.com/in/ianjamesferguson)
-[GitHub](https://github.com/ianferguson)
-[ianferguson.io](https://www.ianferguson.io)
+[info@ianferguson.io](mailto:info@ianferguson.io)\
+[LinkedIn](http://www.linkedin.com/in/ianjamesferguson)\
+[GitHub](https://github.com/ianferguson)\
+[ianferguson.io](https://www.ianferguson.io)\
 
