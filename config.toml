@@ -6,8 +6,8 @@ theme = "hugo-uno"
 # a lot of things are duplicated, due to themes having their own
 # keys for things, and me not being sure of a theme 100% yet
 [params]
-  description = "Software Engineer, Human Being"
-  Description = "Software Engineer, Human Being"
+  description = "Software Engineer, Cat Enthusiast"
+  Description = "Software Engineer, Cat Enthusiast"
   logo = "/images/portrait.jpg"
   github = "ianferguson"
   twitter = "ianwords"
