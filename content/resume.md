@@ -1,5 +1,5 @@
 +++
-date = "2018-03-01"
+date = "2019-06-01"
 draft = false
 title = "Ian Ferguson - Resume"
 
@@ -7,9 +7,20 @@ title = "Ian Ferguson - Resume"
 
 ## EXPERIENCE ##
 
+**Engineering Team Lead**\
+Datadog, New York, NY (Remote)
+_July 2018 - Current_
+
+* Shaped mission and culture of newly created Engineering Tools team.
+* Created reusable components for triggering notifications, deployments and other common build tasks in end users' build pipelines.
+* Operated Gitlab CI based Continuous Integration ecosystem that handles thousands of pipelines and jobs a day.
+* Wrote Golang to add additional functionality to an internal event based source code and build status syncing application.
+* Participated in improvements to the Spinnaker open source project codebase.
+* Led team responsible for improving and scaling Datadog's Continuous Integration and Continuous Delivery practices.
+
 **Engineering Manager**\
 Opower, acquired by Oracle, Arlington, VA\
-_September 2016 - Current_
+_September 2016 - July 2018_
 
 * Managed team of engineers in delivery of business critical applications using agile project management methodologies.
 * Produced forward looking short and long term product road maps to meet anticipated business needs.
