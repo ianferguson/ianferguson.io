@@ -8,7 +8,7 @@ title = "Ian Ferguson - Resume"
 ## EXPERIENCE ##
 
 **Engineering Team Lead**\
-Datadog, New York, NY (Remote)
+Datadog, New York, NY (Remote)\
 _July 2018 - Current_
 
 * Shaped mission and culture of newly created Engineering Tools team.
