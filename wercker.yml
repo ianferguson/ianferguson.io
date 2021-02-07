@@ -11,6 +11,7 @@ build:
     - arjen/hugo-build@2.14.0:
         flags: --buildDrafts=false
         force_install: true
+        version: 0.80.0
 
 deploy:
   # TODO switch to using aws cli packed alpine image
