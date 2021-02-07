@@ -1,12 +1,9 @@
 +++
 date = "2021-02-07"
 draft = false
+title = "Experience"
 
 +++
-
-Experience
-----------
-
 **Senior Software Engineer** _July 2019 - Current_\
 **Engineering Team Lead** _July 2018 - July 2019_\
 Datadog, New York, NY (Remote)
