@@ -7,9 +7,9 @@ title = "Ian Ferguson - Resume"
 
 ## EXPERIENCE ##
 
-**Engineering Team Lead**\
+**Senior Software Engineer** _July 2019 - Current_\
+**Engineering Team Lead** _July 2018 - July 2019_\
 Datadog, New York, NY (Remote)\
-_July 2018 - Current_
 
 * Shaped mission and culture of newly created Engineering Tools team.
 * Created reusable components for triggering notifications, deployments and other common build tasks in end users' build pipelines.
