@@ -1,6 +1,6 @@
 build:
   box:
-    id: andthensome/alpine-hugo-git-bash
+    id: debian
     username: $DOCKERHUB_USERNAME
     password: $DOCKERHUB_PASSWORD
   steps:
@@ -9,8 +9,8 @@ build:
         code: |
             git submodule update --init --recursive
     - arjen/hugo-build:
-        version: "0.74.3"
         flags: --buildDrafts=false
+
 deploy:
   # TODO switch to using aws cli packed alpine image
   # TODO switch to using aws client instead of s3sync
