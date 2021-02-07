@@ -15,7 +15,7 @@ enableRobotsTXT = true
   logo = "/images/portrait-2021.jpeg"
   profilePicture = "/images/portrait-2021.jpeg"
   images = ["images/portrait-2021.jpeg"]
-  mainSections = []
+  mainSections = ["recipes"]
   displayMode = "dark"
   disableThemeSwitcher = true # Theme switcher is enabled by default
 
