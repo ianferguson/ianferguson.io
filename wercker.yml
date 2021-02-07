@@ -5,15 +5,12 @@ build:
     password: $DOCKERHUB_PASSWORD
   steps:
     - script:
-        name: install git
-        code: |
-          apk update && apk add git
-    - script:
         name: initialize git submodules for themes
         code: |
             git submodule update --init --recursive
-    - arjen/hugo-build@1.29.1:
+    - arjen/hugo-build@2.14.0:
         flags: --buildDrafts=false
+        force_install: true
 
 deploy:
   # TODO switch to using aws cli packed alpine image
