@@ -1,6 +1,6 @@
 build:
   box:
-    id: debian
+    id: klakegg/hugo
     username: $DOCKERHUB_USERNAME
     password: $DOCKERHUB_PASSWORD
   steps:
