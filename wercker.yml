@@ -1,9 +1,13 @@
 build:
   box:
-    id: alpine/git
+    id: alpine
     username: $DOCKERHUB_USERNAME
     password: $DOCKERHUB_PASSWORD
   steps:
+    - script:
+        name: install git
+        code: |
+          apk update && apk add git
     - script:
         name: initialize git submodules for themes
         code: |
