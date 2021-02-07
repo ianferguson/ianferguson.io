@@ -4,23 +4,28 @@ draft = false
 
 +++
 
-Experience
-----------
+# Experience
 
-**Senior Software Engineer** _July 2019 - Current_\
-**Engineering Team Lead** _July 2018 - July 2019_\
-Datadog, New York, NY (Remote)
+## Datadog
 
-* Proposed, Created and Lead Internal Service Authentication working group that defined and implemented a standard for internal human to service and service to service authentication based on the OAuth, OIDC and SPIFFE standards.
+**Senior Software Engineer**\
+_July 2019 - Current_
+
+* Created and Lead Internal Service Authentication cross-team working group that defined and implemented a standard for internal human to service and service to service authentication based on the OAuth, OIDC and SPIFFE standards.
 * Built infrastructure and client tooling to use Google Gsuite and Hashicorp Vault as the identity platform for managing user authentication and authorization with Kubernetes clusters.
 * Contributed upstream fixes to Hashicorp's [Vault](https://github.com/hashicorp/vault/pull/10773), [Vault Terraform Provider](https://github.com/terraform-providers/terraform-provider-vault/pull/650) and [Vault JWT authentication plugin](https://github.com/hashicorp/vault-plugin-auth-jwt/pull/86).
+
+**Engineering Team Lead**\
+_July 2018 - July 2019_
+
 * Created reusable components for triggering notifications, deployments and other common build tasks in end users' build pipelines.
 * Operated Gitlab CI based Continuous Integration ecosystem that handles thousands of pipelines and jobs a day.
 * Wrote Golang to add additional functionality to an internal event based source code and build status syncing application.
 * Led team responsible for improving and scaling Datadog's Continuous Integration and Continuous Delivery practices.
 
+## Opower, acquired by Oracle
+
 **Engineering Manager**\
-Opower, acquired by Oracle, Arlington, VA\
 _September 2016 - July 2018_
 
 * Managed team of engineers in delivery of business critical applications using agile project management methodologies.
@@ -30,7 +35,6 @@ _September 2016 - July 2018_
 * Initiated deprecation and replacement of custom internal HTTP client and server frameworks with superior open source equivalents.
 
 **Senior Software Engineer**\
-Opower, acquired by Oracle, Arlington, VA\
 _January 2016 - September 2016_
 
 * Implemented, tested and profiled system for asynchronously archiving client content to Amazon Web Services' S3 on demand.
@@ -38,6 +42,8 @@ _January 2016 - September 2016_
 * Partnered with other engineers across the organization to update and upgrade dependencies (Guava, Jackson, etc) in internal shared libraries.
 * Recommended technical processes for improving and increasing test coverage and code quality on a continuous basis.
 * Optimized and reduced memory usage of producers and consumers of an organization wide message queue.
+
+## Previous
 
 **Freelance Software Engineer**\
 Self Employed, Washington, DC\
@@ -145,12 +151,12 @@ _September 2007 - May 2008_
 
 
 ## SKILLS ##
-* **Languages**: Java (Expert), Go (Some), HTML/CSS (Some), JavaScript (Some),
-* **Java Application Development**: Guice, MyBatis, GWT, DropWizard, Jersey, Jackson, Guava, BoneCP, C3P0, Spring, JodaTime, slf4j/logback, Jetty, Tomcat, other common libraries,
+* **Languages**: Capable with Go, Java, SQL. Familiar but not proficient with Javascript, Ruby, Python.
 * **Tools**: Hashicorp Vault,
+* **Java Application Development**: Guice, MyBatis, GWT, DropWizard, Jersey, Jackson, Guava, BoneCP, C3P0, Spring, JodaTime, slf4j/logback, Jetty, Tomcat, other common libraries,
 * **Platforms**: Linux (CentOS & Ubuntu), Amazon Web Services, OS X,
 * **Databases**: PostgreSQL, Redshift, Vertica, MySQL, Oracle,
-* **Development Tools**: Jenkins, Travis CI, Wercker, git, Eclipse, vim, Maven, tmux, Fish Shell,
+* **Development Tools**: Gitlab, Jenkins, Travis CI, Wercker, git, Eclipse, vim, Maven, tmux, Fish Shell,
 
 ## EDUCATION ##
 Bachelor of Science, Computing Information & Technology\
