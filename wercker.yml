@@ -13,7 +13,7 @@ build:
         force_install: true
         # This is the last version the hugo-uno theme worked with
         # https://github.com/gohugoio/hugoThemes/issues/682
-        version: 0.56.3
+        version: 0.25.1
 
 deploy:
   # TODO switch to using aws cli packed alpine image
