@@ -8,7 +8,7 @@ theme = "hugo-uno"
 [params]
   description = "Software Engineer, Cat Enthusiast"
   Description = "Software Engineer, Cat Enthusiast"
-  logo = "/images/portrait.jpg"
+  logo = "/images/portrait-2021.jpeg"
   github = "ianferguson"
   twitter = "ianwords"
   linkedin = "ianjamesferguson"
