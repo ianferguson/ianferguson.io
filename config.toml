@@ -1,21 +1,29 @@
 baseurl = "http://ianferguson.io/"
 languageCode = "en-us"
 title = "Ian Ferguson"
-theme = "hugo-uno"
+theme = "anatole"
+enableRobotsTXT = true
 
-# a lot of things are duplicated, due to themes having their own
-# keys for things, and me not being sure of a theme 100% yet
+[indexes]
+   category = "categories"
+   tag = "tags"
+
 [params]
   description = "Software Engineer, Cat Enthusiast"
   Description = "Software Engineer, Cat Enthusiast"
   logo = "/images/portrait-2021.jpeg"
+  profilePicture = "/images/portrait-2021.jpeg"
+  images = ["images/portrait-2021.jpeg"]
+  mainSections = []
+  displayMode = "dark"
+  disableThemeSwitcher = true # Theme switcher is enabled by default
+
   github = "ianferguson"
   twitter = "ianwords"
   linkedin = "ianjamesferguson"
   email = "info@ianferguson.io"
   keybase = "ianferguson"
   cv = "/resume"
-  # bitbucket = "ianferguson"
 
 [[params.social]]
     title = "twitter"
@@ -26,3 +34,23 @@ theme = "hugo-uno"
 [[params.social]]
     title = "linkedin"
     url = "https://www.linkedin.com/in/ianjamesferguson"
+
+[menu]
+
+  [[menu.main]]
+  name = "About Me"
+  weight = 200
+  identifier = "about"
+  url = "/about/"
+
+  [[menu.main]]
+  name = "Experience"
+  weight = 300
+  identifier = "resume"
+  url = "/resume/"
+
+  [[menu.main]]
+  name = "Recipes"
+  weight = 400
+  identifier = "recipes"
+  url = "/recipes/"
