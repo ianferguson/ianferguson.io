@@ -1,5 +1,8 @@
 build:
-  box: andthensome/alpine-hugo-git-bash
+  box:
+    id: andthensome/alpine-hugo-git-bash
+    username: $DOCKERHUB_USERNAME
+    password: $DOCKERHUB_PASSWORD
   steps:
     - script:
         name: initialize git submodules for themes
@@ -11,7 +14,10 @@ build:
 deploy:
   # TODO switch to using aws cli packed alpine image
   # TODO switch to using aws client instead of s3sync
-  box: ruby
+  box:
+    id: ruby
+    username: $DOCKERHUB_USERNAME
+    password: $DOCKERHUB_PASSWORD
   steps:
     - s3sync:
         key-id: $AWS_ACCESS_KEY_ID
