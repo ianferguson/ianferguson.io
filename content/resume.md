@@ -11,11 +11,12 @@ Experience
 **Engineering Team Lead** _July 2018 - July 2019_\
 Datadog, New York, NY (Remote)
 
-* Shaped mission and culture of newly created Engineering Tools team.
+* Proposed, Created and Lead Internal Service Authentication working group that defined and implemented a standard for internal human to service and service to service authentication based on the OAuth, OIDC and SPIFFE standards.
+* Built infrastructure and client tooling to use Google Gsuite and Hashicorp Vault as the identity platform for managing user authentication and authorization with Kubernetes clusters.
+* Contributed upstream fixes to Hashicorp's [Vault](https://github.com/hashicorp/vault/pull/10773), [Vault Terraform Provider](https://github.com/terraform-providers/terraform-provider-vault/pull/650) and [Vault JWT authentication plugin](https://github.com/hashicorp/vault-plugin-auth-jwt/pull/86).
 * Created reusable components for triggering notifications, deployments and other common build tasks in end users' build pipelines.
 * Operated Gitlab CI based Continuous Integration ecosystem that handles thousands of pipelines and jobs a day.
 * Wrote Golang to add additional functionality to an internal event based source code and build status syncing application.
-* Participated in improvements to the Spinnaker open source project codebase.
 * Led team responsible for improving and scaling Datadog's Continuous Integration and Continuous Delivery practices.
 
 **Engineering Manager**\
