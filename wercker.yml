@@ -11,7 +11,9 @@ build:
     - arjen/hugo-build@2.14.0:
         flags: --buildDrafts=false
         force_install: true
-        version: 0.80.0
+        # This is the last version the hugo-uno theme worked with
+        # https://github.com/gohugoio/hugoThemes/issues/682
+        version: 0.56.3
 
 deploy:
   # TODO switch to using aws cli packed alpine image
