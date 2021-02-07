@@ -5,3 +5,8 @@ title = "contact"
 
 +++
 
+- [info@ianferguson.io](mailto:info@ianferguson.io)
+- [LinkedIn](http://www.linkedin.com/in/ianjamesferguson)
+- [GitHub](https://github.com/ianferguson)
+- [ianferguson.io](https://www.ianferguson.io)
+

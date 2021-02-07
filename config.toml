@@ -9,6 +9,7 @@ enableRobotsTXT = true
    tag = "tags"
 
 [params]
+  title = "Ian Ferguson"
   description = "Software Engineer, Cat Enthusiast"
   Description = "Software Engineer, Cat Enthusiast"
   logo = "/images/portrait-2021.jpeg"
@@ -41,7 +42,7 @@ enableRobotsTXT = true
   name = "About Me"
   weight = 200
   identifier = "about"
-  url = "/about/"
+  url = "/"
 
   [[menu.main]]
   name = "Experience"
@@ -54,3 +55,9 @@ enableRobotsTXT = true
   weight = 400
   identifier = "recipes"
   url = "/recipes/"
+
+  [[menu.main]]
+  name = "Contact"
+  weight = 500
+  identifier = "contact"
+  url = "/contact/"
