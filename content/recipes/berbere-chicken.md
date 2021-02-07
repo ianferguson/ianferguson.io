@@ -1,6 +1,6 @@
 ---
 title: "Grilled Berbere Chicken"
-date: 2021-02-07T16:24:48-05:00
+date: 2020-09-07
 draft: false
 
 ---
