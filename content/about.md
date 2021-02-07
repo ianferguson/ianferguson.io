@@ -7,9 +7,10 @@ title = "About Me"
 
 ### Things That I Am Interested In
 
-* using technology, data & analytics to do interesting things, and to do uninteresting things better.
-* writing code that does things. these are some of the things i use to write code that does things:
-    * [Amazon Web Services](http://aws.amazon.com/), [Digital Ocean](https://www.digitalocean.com) & Linux
+* Using technology, data & analytics to do interesting things, and to do uninteresting things better.
+* Writing code that does things. these are some of the things I use to write code that does things:
+    * [Amazon Web Services](http://aws.amazon.com/), [Azure](https://azure.microsoft.com/en-us/), [Google Cloud Platform](https://cloud.google.com/)
+    * [Hashicorp Vault](https://www.vaultproject.io/)
     * [Go](http://golang.org/)
     * Java, usually using some combination of
         * [Guava](https://code.google.com/p/guava-libraries/) for general utilities and collections
