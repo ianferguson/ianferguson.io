@@ -1,6 +1,6 @@
 build:
   box:
-    id: klakegg/hugo
+    id: cibuilds/hugo
     username: $DOCKERHUB_USERNAME
     password: $DOCKERHUB_PASSWORD
   steps:
