@@ -1,4 +1,4 @@
-baseurl = "http://ianferguson.io/"
+baseurl = "https://ianferguson.io/"
 languageCode = "en-us"
 title = "Ian Ferguson"
 theme = "anatole"
