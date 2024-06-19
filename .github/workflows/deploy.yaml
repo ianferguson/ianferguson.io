@@ -1,0 +1,43 @@
+name: deploy
+
+on:
+  workflow_run:
+    workflows: ['build']
+    types: [completed]
+    branches: ["main"]
+  workflow_dispatch:
+permissions:
+  contents: read
+  id-token: write
+
+concurrency:
+  group: "deploy"
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Download artifacts (Docker images) from previous workflows
+        uses: actions/download-artifact@v4
+        with:
+          name: hugo-site
+          path: ./public
+      - name: "Configure AWS Credentials"
+        uses: aws-actions/configure-aws-credentials@v4.0.2
+        with:
+          aws-region: us-east-1
+          role-to-assume: arn:aws:iam::867712374939:role/github-actions-ianferguson.io
+          role-session-name: GithubActions-Deployer
+          mask-aws-account-id: true
+      - name: Sync to S3
+        id: deployment
+        run: aws s3 sync ./public/ s3://ianferguson.io --size-only --delete --cache-control max-age=31536000
+      - name: Cloudfront Invalidation
+        id: flushcache
+        run: aws cloudfront create-invalidation --distribution-id E33GWS6MGOFKJZ --paths "/*"
