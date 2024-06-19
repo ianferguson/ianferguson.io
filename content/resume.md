@@ -6,9 +6,7 @@ draft = false
 
 # Experience
 
-Ian Ferguson has worked in the political and technology sectors for over ten years, holding a variety of senior level roles in Democratic campaigns and private companies.
-
-He is currently a Senior Software Engineer on the Production Platform team at [Datadog](https://www.datadoghq.com/), focusing on automating and orchestrating application life cycle and access management in a multi-cloud provider environment in a rapidly growing business.
+Ian Ferguson is currently a Staff Engineer in Runtime Infrastructure at [Datadog](https://www.datadoghq.com/), focusing on automating and orchestrating application life cycle and [access management in a multi-cloud environment](https://www.youtube.com/watch?v=xifpJbTepCs) that includes tens of thousands of hosts and millions of containers in Datadog’s cloud and Kubernetes platforms.
 
 Previously he was an Engineering Manager at [Opower](https://www.oracle.com/industries/utilities/products/what-is-opower.html), a behavioral science driven energy efficiency company, working the internal service platform backing Opower's products.
 
@@ -24,10 +22,18 @@ Prior to that, Ian worked as a Lead Software Engineer at Catalist, a leading pro
 
 ## Datadog
 
-**Senior Software Engineer**\
-_July 2019 - Current_
+**Staff Engineer**\
+_December 2022 - Current_\
 
-* Created and Lead Internal Service Authentication cross-team working group that defined and implemented a standard for internal human to service and service to service authentication based on the OAuth, OIDC and SPIFFE standards.
+* Directed the evolution of internal identity & access management systems used by engineers and systems across Datadog.
+  * A subset of this work was discussed in the talk [Freeing Identity From Infrastructure](https://www.youtube.com/watch?v=xifpJbTepCs) at fwd:cloudsec 2024 and opened sourced as [attaché](https://github.com/datadog/attache)
+* Built change freeze coordination systems for orchestrating planned and unplanned change freezes across subsets of Datadog's internal infrastructure.
+* Led the implementation of enhanced security controls and isolation within production Kubernetes infrastructure.
+
+**Senior Software Engineer**\
+_July 2019 - December 2022_
+
+* Created and directed the Internal Service Authentication cross-team working group that defined and implemented a standard for internal human to service and service to service authentication based on the OAuth, OIDC and SPIFFE standards.
 * Built infrastructure and client tooling to use Google Gsuite and Hashicorp Vault as the identity platform for managing user authentication and authorization with Kubernetes clusters.
 * Contributed upstream fixes to Hashicorp's [Vault](https://github.com/hashicorp/vault/pull/10773), [Vault Terraform Provider](https://github.com/terraform-providers/terraform-provider-vault/pull/650) and [Vault JWT authentication plugin](https://github.com/hashicorp/vault-plugin-auth-jwt/pull/86).
 

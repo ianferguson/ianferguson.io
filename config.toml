@@ -12,17 +12,16 @@ enableRobotsTXT = true
   title = "Ian Ferguson"
   description = "Software Engineer, Cat Enthusiast"
   Description = "Software Engineer, Cat Enthusiast"
-  logo = "/images/portrait-2021.jpeg"
-  profilePicture = "/images/portrait-2021.jpeg"
-  images = ["images/portrait-2021.jpeg"]
+  logo = "/images/profile.jpeg"
+  profilePicture = "/images/profile.jpeg"
+  images = ["images/profile.jpeg"]
   mainSections = ["recipes"]
   displayMode = "dark"
   disableThemeSwitcher = true # Theme switcher is enabled by default
 
   github = "ianferguson"
-  twitter = "ianwords"
   linkedin = "ianjamesferguson"
-  email = "info@ianferguson.io"
+  email = "ian.ferguson@hey.com"
   keybase = "ianferguson"
   cv = "/resume"
 
