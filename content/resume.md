@@ -23,7 +23,7 @@ Prior to that, Ian worked as a Lead Software Engineer at Catalist, a leading pro
 ## Datadog
 
 **Staff Engineer**\
-_December 2022 - Current_\
+_December 2022 - Current_
 
 * Directed the evolution of internal identity & access management systems used by engineers and systems across Datadog.
   * A subset of this work was discussed in the talk [Freeing Identity From Infrastructure](https://www.youtube.com/watch?v=xifpJbTepCs) at fwd:cloudsec 2024 and opened sourced as [attaché](https://github.com/datadog/attache)
