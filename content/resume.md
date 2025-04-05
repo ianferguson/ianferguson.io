@@ -1,5 +1,5 @@
 +++
-date = "2021-02-07"
+date = "2025-02-07"
 draft = false
 
 +++
@@ -185,8 +185,7 @@ Bachelor of Science, Computing Information & Technology\
 Guilford College, Greensboro, NC
 
 ## CONTACT ##
-[info@ianferguson.io](mailto:info@ianferguson.io)\
 [LinkedIn](http://www.linkedin.com/in/ianjamesferguson)\
 [GitHub](https://github.com/ianferguson)\
-[ianferguson.io](https://www.ianferguson.io)
+[ianferg.com](https://ianferg.com)
 
